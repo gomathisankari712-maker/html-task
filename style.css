@@ -1,0 +1,107 @@
+/* Basic styling and layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer, .skills-paragraph, .skills-section, .marquee-tag-container {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Header/Title section */
+.header {
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+}
+
+/* Intro and About sections */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.image-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-section {
+    border: 2px solid black;
+    padding: 5px 20px;
+}
+
+/* Paragraph section */
+.skills-paragraph {
+    text-align: center;
+}
+
+/* Skills section */
+.skills-section {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-item img {
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.points-box {
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+/* Marquee and Footer */
+.marquee-tag-container {
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
